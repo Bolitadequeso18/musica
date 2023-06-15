@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:black;
+}
+
+
+.numero1{
+    height: 900px;
+    display: grid;
+    grid-template-areas: 
+    'cajita-1 cajita-1 cajita-1 cajita-1 cajita-1 cajita-1'
+    'cajita-2 cajita-2 cajita-2 cajita-2 cajita-2 cajita-2'
+    'cajita-2 cajita-2 cajita-2 cajita-2 cajita-2 cajita-2'
+    'cajita-3 cajita-3 cajita-3 cajita-4 cajita-4 cajita-4'
+    'cajita-5 cajita-5 cajita-5 cajita-6 cajita-6 cajita-6'
+    'cajita-5 cajita-5 cajita-5 cajita-6 cajita-6 cajita-6'
+    'cajita-5 cajita-5 cajita-5 cajita-6 cajita-6 cajita-6';
+
+    background-color: rgb(148, 158, 139);
+    border: 1px solid black;
+}
+
+
+.caja {
+    border: 4px solid rgb(0, 0, 0);
+    background-color: rgb(150, 0, 250);
+    text-align: center;
+    padding: 10px;
+}
+
+
+.primera{
+    grid-area: cajita-1;
+    background-color: rgb(119, 89, 50);
+    color: aliceblue;
+}
+
+.segunda{
+    grid-area: cajita-2;
+    background-color: rgb(207, 176, 91);
+}
+.tercera{
+    grid-area: cajita-3;
+    background-color: rgb(119, 89, 50);
+    color: aliceblue;
+}
+.cuarta{
+    grid-area: cajita-4;
+    background-color: rgb(70, 53, 28);
+    color: aliceblue;
+}
+.quinta{
+    grid-area: cajita-5;
+    background-color: rgb(207, 176, 91);
+}
+
+.sexta{
+    grid-area: cajita-6;
+    background-color: rgb(207, 176, 91);
+}
